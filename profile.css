@@ -1,0 +1,84 @@
+header{
+  padding-top:10px;
+  padding-bottom: 60px;
+  background-image: url("../bg.jpg");
+  background-size: cover;
+  /* background-position: 90% 0%; */
+  box-sizing: border-box;
+}
+header p{
+  font-size:55px;
+  font-weight: bolder;
+  color: #00bc19;
+  margin-top: -5px;
+  font-family:"copperplate gothic light";
+
+}
+header p:hover{
+  color:#a901b5;
+}
+img{
+  border: solid black 6px;
+  border-radius: 30%;
+  margin-top: 25px;
+}
+img:hover{
+  width: 325px;
+}
+figcaption{
+  color:white;
+}
+body{
+  margin: 0;
+  text-align: center;
+}
+h1{
+  font-size:30px;
+  color:Dodgerblue;
+  font-family: arial;
+  background-color:#F9F9AF;
+  padding:9px;
+  margin-top:0;
+}
+p{
+  font-size:25px;
+  font-family: arial;
+}
+b{
+  color:#009e05;
+  font-size:25px;
+  font-family:arial;
+  letter-spacing: 1.5px;
+}
+#main-details{
+  border: solid 3px grey;
+  border-radius: 50%;
+  background-color:#c9fff8;
+}
+a{
+  font-size:20px;
+  font-family: arial;
+  text-transform:capitalize;
+  text-decoration: none;
+}
+.like{
+  padding:1px;
+  background-color:#fcb8c2;
+  line-height: 1.2;
+}
+.follow{
+  background-color:#ccf2c9;
+  padding:5px;
+  line-height: 1.2;
+}
+
+a:hover{
+  color:#069b1a;
+}
+a:active{
+  color:red;
+}
+
+footer{
+  border-bottom: solid 5px red;
+}
